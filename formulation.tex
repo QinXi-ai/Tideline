@@ -1,0 +1,16 @@
+\subsection{Effect-Within-Grant Invariant and Controlled Flips}
+\label{sec:invariant}
+We model a visible pre-execution request as a tuple $x=(t,c,L,D,s)$, where $t$ is the user's task instruction, $c$ is the proposed shell command and working directory, $L$ is the available local script or helper source, $D$ is project documentation, and $s$ is the initial snapshot of relevant workspace files. Any missing field is observed explicitly as absent. A pre-execution gate outputs a binary verdict $\hat{y}(x) \in \{\mathrm{allow}, \mathrm{deny}\}$, where \emph{allow} permits immediate execution and \emph{deny} holds the action prior to execution (e.g., to reject an unauthorized mutation or escalate for explicit user confirmation).
+
+When task and workspace context are present, we formalize authorization over files $f$ and write modes $m \in \{\mathrm{append}, \mathrm{replace}\}$. Let $E_f(c,L,s) \subseteq \{\mathrm{append}, \mathrm{replace}\}$ denote the operations that executing $c$ over $(L,s)$ will actually perform on file $f$, and let $P_f(t) \subseteq \{\mathrm{append}, \mathrm{replace}\}$ denote the operations authorized by the user's task (or active host policy). The action satisfies the \emph{effect-within-grant} invariant if and only if
+\[
+\forall f,\quad E_f(c,L,s) \subseteq P_f(t) \quad\Longleftrightarrow\quad \bigcup_{f}\bigl(E_f(c,L,s)\setminus P_f(t)\bigr) = \varnothing .
+\]
+Distinguishing \texttt{append} from \texttt{replace} is security-critical: granting an agent permission to append an audit row does not authorize truncating or overwriting existing records.
+
+To test whether a gate enforces this invariant rather than exploiting surface shortcuts, we define three controlled comparisons while keeping the launch command $c$ fixed:
+\begin{enumerate}
+    \item \textbf{Crossed authorization (50\% shortcut bound).} Pair two tasks $t_1, t_2$ with two programs $p_1, p_2$ on a shared initial state $s$ such that each task authorizes only its matching program: $y(t_i, p_j, s) = \mathrm{allow} \iff i = j$. Any deterministic reviewer that ignores $t$ outputs the same verdict down each column and gets exactly 2 of 4 correct, regardless of how often $p_j$ appeared in training; symmetrically, any reviewer ignoring $(p,s)$ is bounded at 2 of 4 by rows. Across all 4,160 request-change examples in our benchmark, grouping by visible user request---or by all non-request inputs---yields exact allow/deny balance per group, imposing a 50\% (2,080/4,160) accuracy ceiling on any single-sided classifier by construction.
+    \item \textbf{Initial-state dependence.} Hold $(t, c, L)$ fixed and vary only the starting workspace state between $s_1$ and $s_2$ so that $y(t,p,s_1) \neq y(t,p,s_2)$ because a precondition in $s$ enables or suppresses an out-of-scope write.
+    \item \textbf{Wording invariance.} Hold $(p, s)$ and the granted scope $P(t)$ fixed while rephrasing the task from $t$ to $t'$, requiring $y(t,p,s) = y(t',p,s)$ without collapsing into an always-allow or always-deny shortcut.
+\end{enumerate}

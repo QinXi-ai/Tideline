@@ -1,0 +1,687 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{42}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Almeida(2026)]%
+        {almeida2026jev}
+\bibfield{author}{\bibinfo{person}{Diogo Almeida}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Introducing {System One} Models \& {Jev}}.
+\newblock
+\urldef\tempurl%
+\url{https://typesafe.ai/blog/introducing-system-one-models-and-jev}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Andriushchenko et~al\mbox{.}(2025)]%
+        {agentharm}
+\bibfield{author}{\bibinfo{person}{Maksym Andriushchenko},
+  \bibinfo{person}{Alexandra Souly}, \bibinfo{person}{Mateusz Dziemian},
+  \bibinfo{person}{Derek Duenas}, \bibinfo{person}{Maxwell Lin},
+  \bibinfo{person}{Justin Wang}, \bibinfo{person}{Dan Hendrycks},
+  \bibinfo{person}{Andy Zou}, \bibinfo{person}{Zico Kolter},
+  \bibinfo{person}{Matt Fredrikson}, \bibinfo{person}{Yarin Gal}, {and}
+  \bibinfo{person}{Xander Davies}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{AgentHarm}: A Benchmark for Measuring Harmfulness
+  of {LLM} Agents}. In \bibinfo{booktitle}{\emph{International Conference on
+  Learning Representations}}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2410.09024}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{Anthropic}(2026)]%
+        {anthropic2026automode}
+\bibfield{author}{\bibinfo{person}{{Anthropic}}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{How we built {Claude Code} auto mode}.
+\newblock
+\urldef\tempurl%
+\url{https://www.anthropic.com/research/claude-code-auto-mode}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{Binarysite}({[n.\,d.]})]%
+        {shellguard}
+\bibfield{author}{\bibinfo{person}{{Binarysite}}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{{shell-guard-bench}}.
+\newblock \bibinfo{howpublished}{GitHub repository}.
+\newblock
+\shownote{Revision 8511a63}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/Binarysite/shell-guard-bench}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{Claude Code Issue \#30125}(2026)]%
+        {claudecode30125}
+\bibfield{author}{\bibinfo{person}{{Claude Code Issue \#30125}}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{[MODEL] Claude Code} ran a find on the user's home
+  directory without consent}.
+\newblock \bibinfo{howpublished}{GitHub issue, anthropics/claude-code}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/anthropics/claude-code/issues/30125}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Debenedetti et~al\mbox{.}(2025)]%
+        {camel}
+\bibfield{author}{\bibinfo{person}{Edoardo Debenedetti}, \bibinfo{person}{Ilia
+  Shumailov}, \bibinfo{person}{Tianqi Fan}, \bibinfo{person}{Jamie Hayes},
+  \bibinfo{person}{Nicholas Carlini}, \bibinfo{person}{Daniel Fabian},
+  \bibinfo{person}{Christoph Kern}, \bibinfo{person}{Chongyang Shi},
+  \bibinfo{person}{Andreas Terzis}, {and} \bibinfo{person}{Florian Tramèr}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Defeating Prompt Injections by Design}.
+\newblock \bibinfo{howpublished}{arXiv:2503.18813v2}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2503.18813v2}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Debenedetti et~al\mbox{.}(2024)]%
+        {agentdojo}
+\bibfield{author}{\bibinfo{person}{Edoardo Debenedetti}, \bibinfo{person}{Jie
+  Zhang}, \bibinfo{person}{Mislav Balunovic}, \bibinfo{person}{Luca
+  Beurer-Kellner}, \bibinfo{person}{Marc Fischer}, {and}
+  \bibinfo{person}{Florian Tramèr}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{AgentDojo}: A Dynamic Environment to Evaluate
+  Prompt Injection Attacks and Defenses for {LLM} Agents}. In
+  \bibinfo{booktitle}{\emph{Advances in Neural Information Processing
+  Systems}}, Vol.~\bibinfo{volume}{37}. \bibinfo{pages}{82895--82920}.
+\newblock
+\href{https://doi.org/10.52202/079017-2636}{doi:\nolinkurl{10.52202/079017-2636}}
+
+
+\bibitem[Demirkiran and Ernstberger(2026)]%
+        {rosetta}
+\bibfield{author}{\bibinfo{person}{Hasan Demirkiran} {and}
+  \bibinfo{person}{Jens Ernstberger}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{ToolRosetta: Surface-Form Invariance of Tool-Call
+  Guards}}.
+\newblock \bibinfo{howpublished}{arXiv:2610.24055}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2610.24055}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Feng et~al\mbox{.}(2020)]%
+        {codebert}
+\bibfield{author}{\bibinfo{person}{Zhangyin Feng}, \bibinfo{person}{Daya Guo},
+  \bibinfo{person}{Duyu Tang}, \bibinfo{person}{Nan Duan},
+  \bibinfo{person}{Xiaocheng Feng}, \bibinfo{person}{Ming Gong},
+  \bibinfo{person}{Linjun Shou}, \bibinfo{person}{Bing Qin},
+  \bibinfo{person}{Ting Liu}, \bibinfo{person}{Daxin Jiang}, {and}
+  \bibinfo{person}{Ming Zhou}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{CodeBERT}: A Pre-Trained Model for Programming and
+  Natural Languages}. In \bibinfo{booktitle}{\emph{Findings of the Association
+  for Computational Linguistics: EMNLP 2020}}. \bibinfo{publisher}{Association
+  for Computational Linguistics}, \bibinfo{address}{Online},
+  \bibinfo{pages}{1536--1547}.
+\newblock
+\href{https://doi.org/10.18653/v1/2020.findings-emnlp.139}{doi:\nolinkurl{10.18653/v1/2020.findings-emnlp.139}}
+
+
+\bibitem[{fgdrg}({[n.\,d.]})]%
+        {mate}
+\bibfield{author}{\bibinfo{person}{{fgdrg}}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{{MATE-3B} model card}.
+\newblock
+\urldef\tempurl%
+\url{https://huggingface.co/fgdrg/MATE-3B}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Gardner et~al\mbox{.}(2020)]%
+        {contrast}
+\bibfield{author}{\bibinfo{person}{Matt Gardner}, \bibinfo{person}{Yoav Artzi},
+  \bibinfo{person}{Victoria Basmov}, \bibinfo{person}{Jonathan Berant},
+  \bibinfo{person}{Ben Bogin}, \bibinfo{person}{Sihao Chen},
+  \bibinfo{person}{Pradeep Dasigi}, \bibinfo{person}{Dheeru Dua},
+  \bibinfo{person}{Yanai Elazar}, \bibinfo{person}{Ananth Gottumukkala},
+  \bibinfo{person}{Nitish Gupta}, \bibinfo{person}{Hannaneh Hajishirzi},
+  \bibinfo{person}{Gabriel Ilharco}, \bibinfo{person}{Daniel Khashabi},
+  \bibinfo{person}{Kevin Lin}, \bibinfo{person}{Jiangming Liu},
+  \bibinfo{person}{Nelson~F. Liu}, \bibinfo{person}{Phoebe Mulcaire},
+  \bibinfo{person}{Qiang Ning}, \bibinfo{person}{Sameer Singh},
+  \bibinfo{person}{Noah~A. Smith}, \bibinfo{person}{Sanjay Subramanian},
+  \bibinfo{person}{Reut Tsarfaty}, \bibinfo{person}{Eric Wallace},
+  \bibinfo{person}{Ally Zhang}, {and} \bibinfo{person}{Ben Zhou}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Evaluating Models' Local Decision Boundaries via
+  Contrast Sets}. In \bibinfo{booktitle}{\emph{Findings of the {A}ssociation
+  for {C}omputational {L}inguistics: {EMNLP} 2020}},
+  \bibfield{editor}{\bibinfo{person}{Trevor Cohn}, \bibinfo{person}{Yulan He},
+  {and} \bibinfo{person}{Yang Liu}} (Eds.). \bibinfo{publisher}{Association for
+  Computational Linguistics}, \bibinfo{address}{Online},
+  \bibinfo{pages}{1307--1323}.
+\newblock
+\href{https://doi.org/10.18653/v1/2020.findings-emnlp.117}{doi:\nolinkurl{10.18653/v1/2020.findings-emnlp.117}}
+
+
+\bibitem[Huang et~al\mbox{.}(2025)]%
+        {safironpaper}
+\bibfield{author}{\bibinfo{person}{Yue Huang}, \bibinfo{person}{Hang Hua},
+  \bibinfo{person}{Yujun Zhou}, \bibinfo{person}{Pengcheng Jing},
+  \bibinfo{person}{Manish Nagireddy}, \bibinfo{person}{Inkit Padhi},
+  \bibinfo{person}{Greta Dolcetti}, \bibinfo{person}{Zhangchen Xu},
+  \bibinfo{person}{Subhajit Chaudhury}, \bibinfo{person}{Ambrish Rawat},
+  \bibinfo{person}{Liubov Nedoshivina}, \bibinfo{person}{Pin-Yu Chen},
+  \bibinfo{person}{Prasanna Sattigeri}, {and} \bibinfo{person}{Xiangliang
+  Zhang}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{Building a Foundational Guardrail for General
+  Agentic Systems via Synthetic Data}}.
+\newblock \bibinfo{howpublished}{arXiv:2510.09781}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2510.09781}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Ji et~al\mbox{.}(2026)]%
+        {ampermbench}
+\bibfield{author}{\bibinfo{person}{Zimo Ji}, \bibinfo{person}{Zongjie Li},
+  \bibinfo{person}{Pingchuan Ma}, \bibinfo{person}{Wenyuan Jiang},
+  \bibinfo{person}{Yudong Gao}, {and} \bibinfo{person}{Shuai Wang}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Measuring the Permission Gate: A Stress-Test
+  Evaluation of {Claude Code}'s Auto Mode}.
+\newblock \bibinfo{howpublished}{arXiv:2604.04978v2}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2604.04978}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Jia et~al\mbox{.}(2025)]%
+        {taskshield}
+\bibfield{author}{\bibinfo{person}{Feiran Jia}, \bibinfo{person}{Tong Wu},
+  \bibinfo{person}{Xin Qin}, {and} \bibinfo{person}{Anna Squicciarini}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{The Task Shield: Enforcing Task Alignment to Defend
+  Against Indirect Prompt Injection in {LLM} Agents}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 63rd Annual Meeting of the
+  {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)}},
+  \bibfield{editor}{\bibinfo{person}{Wanxiang Che}, \bibinfo{person}{Joyce
+  Nabende}, \bibinfo{person}{Ekaterina Shutova}, {and}
+  \bibinfo{person}{Mohammad~Taher Pilehvar}} (Eds.).
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Vienna, Austria}, \bibinfo{pages}{29680--29697}.
+\newblock
+\showISBNx{979-8-89176-251-0}
+\href{https://doi.org/10.18653/v1/2025.acl-long.1435}{doi:\nolinkurl{10.18653/v1/2025.acl-long.1435}}
+
+
+\bibitem[{kontext-security}({[n.\,d.]})]%
+        {shellrisk}
+\bibfield{author}{\bibinfo{person}{{kontext-security}}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{{ShellRisk-Bench}}.
+\newblock \bibinfo{howpublished}{Hugging Face dataset}.
+\newblock
+\shownote{Revision 4374678}.
+\newblock
+\urldef\tempurl%
+\url{https://huggingface.co/datasets/kontext-security/ShellRisk-Bench}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Laabs(2026)]%
+        {laabs2026decision}
+\bibfield{author}{\bibinfo{person}{Allie Laabs}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Don't Call It a Decision Model}.
+\newblock
+\urldef\tempurl%
+\url{https://typesafe.ai/blog/dont-call-it-a-decision-model}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Liu et~al\mbox{.}(2026a)]%
+        {agentdog}
+\bibfield{author}{\bibinfo{person}{Dongrui Liu}, \bibinfo{person}{Qihan Ren},
+  \bibinfo{person}{Chen Qian}, \bibinfo{person}{Shuai Shao},
+  \bibinfo{person}{Yuejin Xie}, \bibinfo{person}{Yu Li},
+  \bibinfo{person}{Zhonghao Yang}, \bibinfo{person}{Haoyu Luo},
+  \bibinfo{person}{Peng Wang}, \bibinfo{person}{Qingyu Liu},
+  \bibinfo{person}{Binxin Hu}, \bibinfo{person}{Ling Tang},
+  \bibinfo{person}{Jilin Mei}, \bibinfo{person}{Dadi Guo},
+  \bibinfo{person}{Leitao Yuan}, \bibinfo{person}{Junyao Yang},
+  \bibinfo{person}{Guanxu Chen}, \bibinfo{person}{Qihao Lin},
+  \bibinfo{person}{Yi Yu}, \bibinfo{person}{Bo Zhang}, \bibinfo{person}{Jiaxuan
+  Guo}, \bibinfo{person}{Jie Zhang}, \bibinfo{person}{Wenqi Shao},
+  \bibinfo{person}{Huiqi Deng}, \bibinfo{person}{Zhiheng Xi},
+  \bibinfo{person}{Wenjie Wang}, \bibinfo{person}{Wenxuan Wang},
+  \bibinfo{person}{Wen Shen}, \bibinfo{person}{Zhikai Chen},
+  \bibinfo{person}{Haoyu Xie}, \bibinfo{person}{Jialing Tao},
+  \bibinfo{person}{Juntao Dai}, \bibinfo{person}{Jiaming Ji},
+  \bibinfo{person}{Zhongjie Ba}, \bibinfo{person}{Linfeng Zhang},
+  \bibinfo{person}{Yong Liu}, \bibinfo{person}{Quanshi Zhang},
+  \bibinfo{person}{Lei Zhu}, \bibinfo{person}{Zhihua Wei}, \bibinfo{person}{Hui
+  Xue}, \bibinfo{person}{Chaochao Lu}, \bibinfo{person}{Jing Shao}, {and}
+  \bibinfo{person}{Xia Hu}.} \bibinfo{year}{2026}\natexlab{a}.
+\newblock \bibinfo{title}{{AgentDoG: A Diagnostic Guardrail Framework for AI
+  Agent Safety and Security}}.
+\newblock \bibinfo{howpublished}{arXiv:2601.18491}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2601.18491}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Liu et~al\mbox{.}(2026b)]%
+        {fedsdrfig}
+\bibfield{author}{\bibinfo{person}{Jiaqi Liu}, \bibinfo{person}{Zihan Tan},
+  \bibinfo{person}{Guancheng Wan}, \bibinfo{person}{Wenke Huang},
+  \bibinfo{person}{He Li}, {and} \bibinfo{person}{Mang Ye}.}
+  \bibinfo{year}{2026}\natexlab{b}.
+\newblock \showarticletitle{{FedSDR}: Federated Graph Learning with Structural
+  Noise Detection and Reconstruction}. In \bibinfo{booktitle}{\emph{IEEE/CVF
+  Conference on Computer Vision and Pattern Recognition}}.
+  \bibinfo{pages}{3379--3389}.
+\newblock
+\urldef\tempurl%
+\url{https://openaccess.thecvf.com/content/CVPR2026/html/Liu_FedSDR_Federated_Graph_Learning_with_Structural_Noise_Detection_and_Reconstruction_CVPR_2026_paper.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Mou et~al\mbox{.}(2026)]%
+        {toolsafe}
+\bibfield{author}{\bibinfo{person}{Yutao Mou}, \bibinfo{person}{Zhangchi Xue},
+  \bibinfo{person}{Lijun Li}, \bibinfo{person}{Peiyang Liu},
+  \bibinfo{person}{Shikun Zhang}, \bibinfo{person}{Wei Ye}, {and}
+  \bibinfo{person}{Jing Shao}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{ToolSafe}: Enhancing Tool Invocation Safety of
+  {LLM}-based Agents via Proactive Step-level Guardrail and Feedback}. In
+  \bibinfo{booktitle}{\emph{Findings of the Association for Computational
+  Linguistics: ACL 2026}}. \bibinfo{publisher}{Association for Computational
+  Linguistics}, \bibinfo{address}{San Diego, CA, USA},
+  \bibinfo{pages}{37125--37153}.
+\newblock
+\href{https://doi.org/10.18653/v1/2026.findings-acl.1850}{doi:\nolinkurl{10.18653/v1/2026.findings-acl.1850}}
+
+
+\bibitem[{ninty-seven}({[n.\,d.]})]%
+        {stepguard}
+\bibfield{author}{\bibinfo{person}{{ninty-seven}}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{{StepGuard} model card}.
+\newblock
+\urldef\tempurl%
+\url{https://huggingface.co/ninty-seven/StepGuard}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{OpenAI}(2026)]%
+        {openai2026decisions}
+\bibfield{author}{\bibinfo{person}{{OpenAI}}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Build more responsive apps with the {Decisions API}}.
+\newblock
+\urldef\tempurl%
+\url{https://openai.com/index/decisions-api/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{OpenFGA}(2026)]%
+        {openfgastores}
+\bibfield{author}{\bibinfo{person}{{OpenFGA}}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{OpenFGA} Sample Stores}.
+\newblock \bibinfo{howpublished}{GitHub repository}.
+\newblock
+\shownote{Commit 6802b4d8}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/openfga/sample-stores/tree/6802b4d859d2773eea72c2315b3a9f027a2893a0}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{PlutoYQ-NTU}({[n.\,d.]})]%
+        {agentpolicy}
+\bibfield{author}{\bibinfo{person}{{PlutoYQ-NTU}}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{{agent-policy-bench}}.
+\newblock \bibinfo{howpublished}{GitHub repository}.
+\newblock
+\shownote{Revision bf11839}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/PlutoYQ-NTU/agent-policy-bench}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Provos(2003)]%
+        {systrace}
+\bibfield{author}{\bibinfo{person}{Niels Provos}.}
+  \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Improving Host Security with System Call Policies}.
+  In \bibinfo{booktitle}{\emph{12th USENIX Security Symposium}}.
+  \bibinfo{publisher}{USENIX Association}.
+\newblock
+
+
+\bibitem[Remedios et~al\mbox{.}(2026)]%
+        {remedios2026automode}
+\bibfield{author}{\bibinfo{person}{Alex Remedios}, \bibinfo{person}{Simon
+  Storf}, \bibinfo{person}{Fabien Roger}, {and} \bibinfo{person}{John Hughes}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Red-Teaming Auto Mode: Improving Blocking Classifiers
+  Against Malign Coding Agents}.
+\newblock
+\urldef\tempurl%
+\url{https://alignment.anthropic.com/2026/red-teaming-auto-mode/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Ribeiro et~al\mbox{.}(2020)]%
+        {checklist}
+\bibfield{author}{\bibinfo{person}{Marco~Tulio Ribeiro},
+  \bibinfo{person}{Tongshuang Wu}, \bibinfo{person}{Carlos Guestrin}, {and}
+  \bibinfo{person}{Sameer Singh}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Beyond Accuracy: Behavioral Testing of {NLP} Models
+  with {C}heck{L}ist}. In \bibinfo{booktitle}{\emph{Proceedings of the 58th
+  Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics}},
+  \bibfield{editor}{\bibinfo{person}{Dan Jurafsky}, \bibinfo{person}{Joyce
+  Chai}, \bibinfo{person}{Natalie Schluter}, {and} \bibinfo{person}{Joel
+  Tetreault}} (Eds.). \bibinfo{publisher}{Association for Computational
+  Linguistics}, \bibinfo{address}{Online}, \bibinfo{pages}{4902--4912}.
+\newblock
+\href{https://doi.org/10.18653/v1/2020.acl-main.442}{doi:\nolinkurl{10.18653/v1/2020.acl-main.442}}
+
+
+\bibitem[Rolnick et~al\mbox{.}(2019)]%
+        {rolnickreplay}
+\bibfield{author}{\bibinfo{person}{David Rolnick}, \bibinfo{person}{Arun
+  Ahuja}, \bibinfo{person}{Jonathan Schwarz}, \bibinfo{person}{Timothy
+  Lillicrap}, {and} \bibinfo{person}{Gregory Wayne}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Experience Replay for Continual Learning}. In
+  \bibinfo{booktitle}{\emph{Advances in Neural Information Processing
+  Systems}}, Vol.~\bibinfo{volume}{32}.
+\newblock
+
+
+\bibitem[Ruan et~al\mbox{.}(2024)]%
+        {toolemu}
+\bibfield{author}{\bibinfo{person}{Yangjun Ruan}, \bibinfo{person}{Honghua
+  Dong}, \bibinfo{person}{Andrew Wang}, \bibinfo{person}{Silviu Pitis},
+  \bibinfo{person}{Yongchao Zhou}, \bibinfo{person}{Jimmy Ba},
+  \bibinfo{person}{Yann Dubois}, \bibinfo{person}{Chris~J. Maddison}, {and}
+  \bibinfo{person}{Tatsunori Hashimoto}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{Identifying the Risks of LM Agents with an
+  LM-Emulated Sandbox}}. In \bibinfo{booktitle}{\emph{International Conference
+  on Learning Representations}}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2309.15817}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{Safiron}({[n.\,d.]})]%
+        {safiron}
+\bibfield{author}{\bibinfo{person}{{Safiron}}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{{Safiron} model card}.
+\newblock
+\urldef\tempurl%
+\url{https://huggingface.co/Safiron/Safiron}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Shi et~al\mbox{.}(2025)]%
+        {progent}
+\bibfield{author}{\bibinfo{person}{Tianneng Shi}, \bibinfo{person}{Jingxuan
+  He}, \bibinfo{person}{Zhun Wang}, \bibinfo{person}{Hongwei Li},
+  \bibinfo{person}{Linyu Wu}, \bibinfo{person}{Wenbo Guo}, {and}
+  \bibinfo{person}{Dawn Song}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{Progent: Securing AI Agents with Privilege
+  Control}}.
+\newblock \bibinfo{howpublished}{arXiv:2504.11703}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2504.11703}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{THU-COAI}({[n.\,d.]})]%
+        {shield}
+\bibfield{author}{\bibinfo{person}{{THU-COAI}}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{{ShieldAgent} model card}.
+\newblock
+\urldef\tempurl%
+\url{https://huggingface.co/thu-coai/ShieldAgent}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Wang et~al\mbox{.}(2026)]%
+        {agentspec}
+\bibfield{author}{\bibinfo{person}{Haoyu Wang}, \bibinfo{person}{Christopher~M.
+  Poskitt}, {and} \bibinfo{person}{Jun Sun}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{AgentSpec: Customizable Runtime Enforcement for
+  Safe and Reliable LLM Agents}}. In \bibinfo{booktitle}{\emph{IEEE/ACM
+  International Conference on Software Engineering}}.
+\newblock
+\href{https://doi.org/10.1145/3744916.3764546}{doi:\nolinkurl{10.1145/3744916.3764546}}
+
+
+\bibitem[Xie et~al\mbox{.}(2026)]%
+        {ppafig}
+\bibfield{author}{\bibinfo{person}{Yudi Xie}, \bibinfo{person}{Zhongao Zhou},
+  \bibinfo{person}{Bin Yang}, \bibinfo{person}{Zhenghan Chen}, {and}
+  \bibinfo{person}{Mang Ye}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Towards Cross-Modal Preservation, Consistency and
+  Alignment for Privacy-Preserving Visible-Infrared Person Re-Identification}.
+  In \bibinfo{booktitle}{\emph{IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}}. \bibinfo{pages}{11273--11282}.
+\newblock
+\urldef\tempurl%
+\url{https://openaccess.thecvf.com/content/CVPR2026/html/Xie_Towards_Cross-Modal_Preservation_Consistency_and_Alignment_for_Privacy-Preserving_Visible-Infrared_Person_CVPR_2026_paper.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Yang et~al\mbox{.}(2024)]%
+        {sdcl}
+\bibfield{author}{\bibinfo{person}{Bin Yang}, \bibinfo{person}{Jun Chen}, {and}
+  \bibinfo{person}{Mang Ye}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Shallow-Deep Collaborative Learning for
+  Unsupervised Visible-Infrared Person Re-Identification}. In
+  \bibinfo{booktitle}{\emph{IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition}}. \bibinfo{pages}{16870--16879}.
+\newblock
+\urldef\tempurl%
+\url{https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Shallow-Deep_Collaborative_Learning_for_Unsupervised_Visible-Infrared_Person_Re-Identification_CVPR_2024_paper.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Yang et~al\mbox{.}(2026)]%
+        {raasfig}
+\bibfield{author}{\bibinfo{person}{Jiayi Yang}, \bibinfo{person}{Guancheng
+  Wan}, \bibinfo{person}{Man Zhang}, {and} \bibinfo{person}{Mang Ye}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{RAAS}: {LLM} Agentic System Architecture Search
+  with {GRPO}}. In \bibinfo{booktitle}{\emph{IEEE/CVF Conference on Computer
+  Vision and Pattern Recognition}}. \bibinfo{pages}{34470--34479}.
+\newblock
+
+
+\bibitem[Yao et~al\mbox{.}(2024)]%
+        {taubench}
+\bibfield{author}{\bibinfo{person}{Shunyu Yao}, \bibinfo{person}{Noah Shinn},
+  \bibinfo{person}{Pedram Razavi}, {and} \bibinfo{person}{Karthik Narasimhan}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{$\tau$-bench}: A Benchmark for Tool-Agent-User
+  Interaction in Real-World Domains}.
+\newblock \bibinfo{howpublished}{arXiv:2406.12045}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2406.12045}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhai et~al\mbox{.}(2026)]%
+        {meta}
+\bibfield{author}{\bibinfo{person}{Wenbin Zhai}, \bibinfo{person}{Yihao Liu},
+  \bibinfo{person}{Dong Wang}, \bibinfo{person}{Hao Chen}, {and}
+  \bibinfo{person}{Bin Xiao}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{MetaMancer}: Practical Tool Selection Attacks
+  against {LLM} Agents}. In \bibinfo{booktitle}{\emph{ACM SIGSAC Conference on
+  Computer and Communications Security}}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{4193--4207}.
+\newblock
+\href{https://doi.org/10.1145/3830454.3846793}{doi:\nolinkurl{10.1145/3830454.3846793}}
+
+
+\bibitem[Zhan et~al\mbox{.}(2024)]%
+        {injecagent}
+\bibfield{author}{\bibinfo{person}{Qiusi Zhan}, \bibinfo{person}{Zhixiang
+  Liang}, \bibinfo{person}{Zifan Ying}, {and} \bibinfo{person}{Daniel Kang}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{I}njec{A}gent: Benchmarking Indirect Prompt
+  Injections in Tool-Integrated Large Language Model Agents}. In
+  \bibinfo{booktitle}{\emph{Findings of the {A}ssociation for {C}omputational
+  {L}inguistics: {ACL} 2024}}, \bibfield{editor}{\bibinfo{person}{Lun-Wei Ku},
+  \bibinfo{person}{Andre Martins}, {and} \bibinfo{person}{Vivek Srikumar}}
+  (Eds.). \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Bangkok, Thailand}, \bibinfo{pages}{10471--10506}.
+\newblock
+\href{https://doi.org/10.18653/v1/2024.findings-acl.624}{doi:\nolinkurl{10.18653/v1/2024.findings-acl.624}}
+
+
+\bibitem[Zhang et~al\mbox{.}(2025)]%
+        {asb}
+\bibfield{author}{\bibinfo{person}{Hanrong Zhang}, \bibinfo{person}{Jingyuan
+  Huang}, \bibinfo{person}{Kai Mei}, \bibinfo{person}{Yifei Yao},
+  \bibinfo{person}{Zhenting Wang}, \bibinfo{person}{Chenlu Zhan},
+  \bibinfo{person}{Hongwei Wang}, {and} \bibinfo{person}{Yongfeng Zhang}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{Agent Security Bench (ASB): Formalizing and
+  Benchmarking Attacks and Defenses in LLM-based Agents}}. In
+  \bibinfo{booktitle}{\emph{International Conference on Learning
+  Representations}}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2410.02644}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2024)]%
+        {agentsafety}
+\bibfield{author}{\bibinfo{person}{Zhexin Zhang}, \bibinfo{person}{Shiyao Cui},
+  \bibinfo{person}{Yida Lu}, \bibinfo{person}{Jingzhuo Zhou},
+  \bibinfo{person}{Junxiao Yang}, \bibinfo{person}{Hongning Wang}, {and}
+  \bibinfo{person}{Minlie Huang}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{Agent-SafetyBench: Evaluating the Safety of LLM
+  Agents}}.
+\newblock \bibinfo{howpublished}{arXiv:2412.14470}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2412.14470}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zheng et~al\mbox{.}(2026)]%
+        {stepguardpaper}
+\bibfield{author}{\bibinfo{person}{Zhijie Zheng}, \bibinfo{person}{Yu Li},
+  \bibinfo{person}{Chen Qian}, \bibinfo{person}{Yuqian Fu},
+  \bibinfo{person}{Yanwei Fu}, \bibinfo{person}{Lu Sheng},
+  \bibinfo{person}{Jing Shao}, {and} \bibinfo{person}{Dongrui Liu}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{StepGuard: Learning Step-Level Guardrails with
+  Scalable Supervision and Safety-Utility Balancing}}.
+\newblock \bibinfo{howpublished}{arXiv:2608.24777}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2608.24777}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhong et~al\mbox{.}(2026)]%
+        {yolofs}
+\bibfield{author}{\bibinfo{person}{Shawn Zhong}, \bibinfo{person}{Junxuan
+  Liao}, \bibinfo{person}{Jing Liu}, \bibinfo{person}{Mai Zheng},
+  \bibinfo{person}{Andrea~C. Arpaci-Dusseau}, {and} \bibinfo{person}{Remzi~H.
+  Arpaci-Dusseau}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Don't Let {AI} Agents {YOLO} Your Files:
+  Information and Control in Agent-Native Filesystems}. In
+  \bibinfo{booktitle}{\emph{ACM Symposium on Operating Systems Principles
+  (SOSP)}}.
+\newblock
+\urldef\tempurl%
+\url{https://research.cs.wisc.edu/adsl/Publications/yolofs-sosp26.pdf}
+\showURL{%
+\tempurl}
+
+
+\end{thebibliography}
